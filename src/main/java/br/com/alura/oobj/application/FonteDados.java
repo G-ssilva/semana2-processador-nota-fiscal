@@ -3,10 +3,11 @@ package br.com.alura.oobj.application;
 public enum FonteDados {
 
   CSV(".csv", new LeitorFonteDadosCSV()),
-  XML(".xml", new LeitorFonteDadosXML());
+  XML(".xml", new LeitorFonteDadosXML()),
+  JSON (".json", new LeitorFonteDadosJson());
 
-  private String extensao;
-  private LeitorFonteDados leitorFonteDados;
+  private final String extensao;
+  private final LeitorFonteDados leitorFonteDados;
 
   FonteDados(String extensao, LeitorFonteDados leitorFonteDados) {
     this.extensao = extensao;

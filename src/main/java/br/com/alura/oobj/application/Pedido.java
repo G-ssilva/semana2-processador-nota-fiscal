@@ -12,6 +12,9 @@ public class Pedido {
   }
 
   public Pedido(List<ItemPedido> itens) {
+    if(itens == null){
+      throw new IllegalArgumentException();
+    }
     this.itens = itens;
   }
 

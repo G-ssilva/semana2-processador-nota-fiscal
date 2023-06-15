@@ -1,0 +1,11 @@
+<pedido>
+    <itens>
+        <item>
+            <codigo>10</codigo>
+            <descricao>Coca-Cola Zero Lata 310 ML</descricao>
+            <quantidade>1</quantidade>
+            <valorUnitario>10.0</valorUnitario>
+            <classeFiscal>2202.10.00</classeFiscal>
+        </item>
+    </itens>
+</pedido>
